@@ -1,1 +1,4 @@
-# challenge
+# Challenge
+
+## Used technologies
+```NodeJS``` ```MongoDB```

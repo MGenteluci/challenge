@@ -25,7 +25,7 @@ requestToSwapi = (req, res, next, url) => {
             }
 
             if(response.data.next === null)
-                return res.status(404).json({ message: 'Invalid planet' });
+                return res.status(400).json({ message: 'Invalid planet' });
         }   
 
     })
