@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Planet = require('../models/Planet');
 
-exports.save = async (req, res, next) => {
+exports.save = (req, res, next) => {
     
     const planet = new Planet({
         _id: mongoose.Types.ObjectId(),
