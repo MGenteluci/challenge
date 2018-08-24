@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const isPlanetNameInUse = require('../middlewares/isPlanetNameInUse');
+const countMovies = require('../middlewares/countMovies');
 
 const PlanetController = require('../controllers/planets');
 
@@ -9,7 +10,7 @@ const PlanetController = require('../controllers/planets');
  * Endpoint to add a new planet
  * @method POST
  */
-router.post('/', isPlanetNameInUse, PlanetController.save);
+router.post('/', isPlanetNameInUse, countMovies, PlanetController.save);
 
 /**
  * Endpoint to fetch all planets

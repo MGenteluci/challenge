@@ -16,6 +16,9 @@ const planetSchema = mongoose.Schema({
     terrain: {
         type: String,
         required: true
+    },
+    moviesNumber: {
+        type: Number
     }
 
 });
