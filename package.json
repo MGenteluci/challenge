@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha app/test/planets --timeout 10000",
+    "test": "mocha app/test/planets --timeout 10000 --no-deprecation",
     "start": "nodemon server.js"
   },
   "keywords": [],
