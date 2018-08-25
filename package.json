@@ -1,14 +1,14 @@
 {
   "name": "b2w-challenge",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API created to attend B2W's Challenge",
+  "main": "server.js",
   "scripts": {
     "test": "mocha app/test/planets --timeout 10000 --no-deprecation",
     "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["b2w", "challenge", "api", "nodejs"],
+  "author": "Matheus Genteluci de Almeida",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
